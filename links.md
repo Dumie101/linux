@@ -1,6 +1,6 @@
 # Links
 
-A link is a pointer pointing to a file or directory. A pointer is an object that stores a memory address (https://en.wikipedia.org/wiki/Pointer_(computer_programming)). Links allow a filename to refer to a file.
+A link is a pointer pointing to a file or directory. A pointer is an object that stores a memory address https://en.wikipedia.org/wiki/Pointer_(computer_programming). Links allow a filename to refer to a file.
 
 There are two types of links.
 
