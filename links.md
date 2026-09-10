@@ -1,18 +1,18 @@
 # Links
 
-A **link** in UNIX/Linux is a pointer that maps a filename to an underlying file or directory on the storage drive. 
+A **link** in UNIX/Linux is a pointer https://en.wikipedia.org/wiki/Pointer_(computer_programming) that points a filename to an underlying file or directory content in memory.
 
 There are two primary types of links:
 
 ### 1. Soft Links (Symbolic Links)
-A **soft link** is a shortcut that contains only the path string of the target file. If the original file is moved or deleted, the soft link breaks and becomes a "dangling" link. 
+A **soft link** is a shortcut that contains only the path string of the target file or directory. If the original file or directory is moved or deleted, the soft link breaks and becomes a "dangling" link.
 * **Command to create:**
 ```bash
 ln -s [original_filename] [link_name]
 ```
 
 ### 2. Hard Links
-A **hard link** is a direct reference to the physical file on the storage drive, sharing the exact same **inode number** as the original file. It remains fully valid and accessible even if the original filename is moved or deleted.
+A **hard link** is a direct reference to the file content in memory, sharing the exact same **inode number** as the original file. It remains fully valid and accessible even if the original filename is moved or deleted.
 * **Command to create:**
 ```bash
 ln [original_filename] [link_name]
